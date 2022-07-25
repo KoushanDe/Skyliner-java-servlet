@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+body {
+ background-image: url("background3.jpg");
+ background-color: #ffffff;
+ background-size: 1600px 800px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.addflight {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+.addflight form{
+ 	background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 20px 35px;
+}
+
+.searchflight {
+	display: flex;
+  justify-content: center;
+}
+
+select {
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.logout input {
+	width: 100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    font-weight: 300;
+    opacity: 100%;
+}
+::placeholder{
+    color: #9f9f9f;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead tr {
+    background-color: #0080c0;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table tbody tr {
+    background-color: #f3f3f3;
+    color: #006a9d
+}
+
+table tbody tr:nth-of-type(even) {
+	border-bottom: 1px solid #dddddd;
+    background-color: #0080c0;
+    color: #f3f3f3;
+    
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #ebebeb;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #0080c0;
+}
